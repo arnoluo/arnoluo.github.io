@@ -344,7 +344,7 @@ footer {
   padding: 20px 30px;
 }
 .single footer > div {
-  max-width: 960px;
+  max-width: 1440px;
   margin: 0 auto;
   text-align: center;
 }
@@ -358,7 +358,7 @@ footer {
 }
 .single #lx-main-content {
   margin-left: 0;
-  max-width: 960px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 @media screen and (min-width: 2094.5px) {
@@ -464,7 +464,7 @@ a.category-link {
 }
 .lx-navigation .lx-cover .copy .display-t,
 .lx-navigation .lx-cover .copy .display-tc {
-  height: 270px;
+  height: 150px;
   display: table;
   width: 100%;
 }
@@ -610,6 +610,7 @@ p .tag-link,
 }
 .position-right.open {
   right: 0;
+  display: block;
 }
 .menu-container,
 .menu-head,
@@ -625,6 +626,7 @@ p .tag-link,
   background: var(--skin);
   position: fixed;
   width: 270px;
+  display: none;
 }
 .menu-head .layer {
   background: rgba(0,0,0,0.2);

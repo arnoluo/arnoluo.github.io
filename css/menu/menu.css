@@ -45,6 +45,7 @@
 }
 .position-right.open {
   right: 0;
+  display: block;
 }
 .menu-container,
 .menu-head,
@@ -60,6 +61,7 @@
   background: var(--skin);
   position: fixed;
   width: 270px;
+  display: none;
 }
 .menu-head .layer {
   background: $black-t-2;
